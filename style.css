@@ -1,0 +1,21 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: clamp(11px, 2vw, 72px);
+    background-color: #EBEDE7;
+}
+
+h1 {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.effect {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+h1:hover, .effect:hover {
+    cursor: pointer;
+}
